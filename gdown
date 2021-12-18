@@ -4,8 +4,8 @@ fileNAME=$1
 fileID=$2
 
 echo "Google Drive download via curl"
-echo "File NAME $fileNAME"
-echo "File ID $fileID"
+echo "File NAME: $fileNAME"
+echo "File ID: $fileID"
 echo "Downloading..."
 
 rm -rf /tmp/cookies.txt
