@@ -1,8 +1,17 @@
 # Google Drive Curl
 Download Google Drive fileID via curl.
 
+Download:
 ```console 
 curl -k -L -o gdown https://bit.ly/3mimUDJ && chmod +x gdown
 ```
 
-Usage: bash gdown filename.extension fileid
+Usage: 
+```console 
+bash gdown filename.extension fileid
+```
+
+Example: 
+```console 
+bash gdown test.bin 1l_5RK28JRL19wpT22B-DY9We3TVXnnQQ
+```
