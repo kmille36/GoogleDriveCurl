@@ -1,7 +1,18 @@
 #!/bin/bash
 
+
+echo "Repository: https://github.com/kmille36/GoogleDriveCurl"
+echo "Usage: bash gdown filename.extension fileid"
+
 fileNAME=$1
 fileID=$2
+
+echo $fileNAME > /tmp/name
+echo $fileID > /tmp/id
+[ -s /tmp/name ] || echo Missing File NAME
+[ -s /tmp/id ] || echo Missing File ID
+
+
 
 echo "Google Drive download via curl"
 echo "File NAME: $fileNAME"
