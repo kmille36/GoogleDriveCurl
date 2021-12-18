@@ -3,7 +3,7 @@ Download Google Drive fileID via curl.
 
 Download:
 ```console 
-curl -k -L -o gdown https://bit.ly/3mimUDJ && chmod +x gdown
+curl -kLo gdown https://bit.ly/3mimUDJ && chmod +x gdown
 ```
 
 Usage: 
