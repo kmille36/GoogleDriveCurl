@@ -7,8 +7,8 @@ echo "Usage: bash gdown filename.extension fileid"
 fileNAME=$1
 fileID=$2
 
-echo $fileNAME > /tmp/name
-echo $fileID > /tmp/id
+echo -n $fileNAME > /tmp/name
+echo -n $fileID > /tmp/id
 [ -s /tmp/name ] || echo Missing File NAME
 [ -s /tmp/id ] || echo Missing File ID
 
