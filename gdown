@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "Repository: https://github.com/kmille36/GoogleDriveCurl"
+echo "Repository: https://bit.ly/3mfe5e5"
 echo "Usage: bash gdown filename.extension fileid"
 
 fileNAME=$1
