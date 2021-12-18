@@ -1,4 +1,4 @@
-# Google Drive Curl
+# Google Drive Curl (Linux)
 Download Google Drive fileID via curl.
 
 Download:
