@@ -14,7 +14,7 @@ echo -n $fileID > /tmp/id
 
 
 
-echo "Google Drive download via curl"
+echo "Download Google Drive via fileID on curl"
 echo "File NAME: $fileNAME"
 echo "File ID: $fileID"
 echo "Downloading..."
